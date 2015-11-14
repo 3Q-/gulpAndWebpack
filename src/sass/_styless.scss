@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import "compass/reset";
+@import "compass/utilities/sprites";    // 加载compass sprites模块
+@import "sprite/*.png";                    // 导入sprite目录下所有png图片
+@include all-sprite-sprites;
+
+@include sprite-sprites(lte20px-icon_01);
+@include sprite-sprites(lte20px-icon_03);
+@include sprite-sprites(lte20px-icon_05);
+@include sprite-sprites(lte20px-icon_10);
+
+body{
+    background:#ccc;
+    div{
+        margin:0;
+        padding:0;
+    }
+
+}
+
+div{
+    margin:10px;
+
+}
+
+
